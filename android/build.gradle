@@ -63,12 +63,7 @@ android {
         }
     }
 
-    buildFeatures {
-        prefab true
-    }
-
     dependencies {
-        implementation "com.android.ndk.thirdparty:openssl:1.1.1q-beta-1"
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
         testImplementation 'org.mockito:mockito-core:5.7.0'
     }
